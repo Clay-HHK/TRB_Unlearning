@@ -1,10 +1,10 @@
-# RB-Unlearning: Robust Graph Unlearning via Hierarchical Clustering
+# Tail-Robust Graph Unlearning
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.12%2B-orange)
 
-This repository contains the official implementation of **RB-Unlearning**, a robust and efficient graph unlearning framework designed for Graph Neural Networks (GNNs). It supports various unlearning scenarios (node deletion, edge deletion) and provides comprehensive evaluation metrics including model utility, unlearning efficiency, and defense against Membership Inference Attacks (MIA).
+This repository contains the official implementation of **TRB-Unlearning**, a robust and efficient graph unlearning framework designed for Graph Neural Networks (GNNs). It supports various unlearning scenarios (node deletion, edge deletion) and provides comprehensive evaluation metrics including model utility, unlearning efficiency, and defense against Membership Inference Attacks (MIA).
 
 ## 🌟 Features
 
@@ -57,7 +57,7 @@ rb_unlearning/
 ## 🚀 Usage
 
 ### 1. Data Preparation
-The code supports `DBLP_bipartite`, `ogbn-arxiv`, `ogbn-products`, and `CiteSeer_bipartite`.
+The code supports `DBLP_bipartite`, `ogbn-arxiv`, and `CiteSeer_bipartite`.
 To pre-process a dataset into a standard `.npz` format:
 ```bash
 python data/preprocess_data.py --dataset DBLP_bipartite
