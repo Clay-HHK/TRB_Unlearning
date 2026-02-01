@@ -9,7 +9,7 @@ This repository contains the official implementation of **RB-Unlearning**, a rob
 ## 🌟 Features
 
 - **Modular Design**: Clear separation of models, data loaders, training logic, and unlearning algorithms.
-- **Supported Models**: GCN, GAT, GraphSAGE, GIN, MLP.
+- **Supported Models**: GCN, GAT, GraphSAGE.
 - **Unlearning Algorithms**:
   - **Retraining** (Exact Unlearning baseline)
   - **Gradient Ascent** (Delete Similarity)
